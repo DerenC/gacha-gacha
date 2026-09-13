@@ -55,7 +55,7 @@ function App() {
     }}>
       <div className="app-container">
         <header>
-          <h1>8-Bit Gacha</h1>
+          <h1>Gacha Gachapon</h1>
           <nav>
             <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Machine</Link>
             <Link to="/inventory" className={location.pathname === '/inventory' ? 'active' : ''}>Items</Link>

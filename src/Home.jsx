@@ -75,7 +75,7 @@ function Home() {
   return (
     <>
       <div className="gumball-machine-wrapper" onClick={handleMachineClick}>
-        <img src="/gumball.png" alt="Gumball Machine" className="gumball-machine-img" />
+        <img src="/empty_gumball_machine.png" alt="Gumball Machine" className="gumball-machine-img" />
         <div className="dome-area">
           {domeCapsules.map(c => (
             <div 
